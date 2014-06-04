@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :vendas
+
   resources :produtos
 
   # The priority is based upon order of creation: first created -> highest priority.
